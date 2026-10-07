@@ -724,7 +724,7 @@ docker compose up --build
 FastAPI runs on:
 
 ```text
-http://localhost:8501
+http://127.0.0.1:8000
 ```
 
 Swagger documentation:

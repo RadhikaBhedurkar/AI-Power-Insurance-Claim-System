@@ -597,10 +597,8 @@ Demo Mode allows the complete application workflow to be demonstrated without re
 
 It can be started using:
 
-```powershell
-$env:DEMO_MODE="1"
 uvicorn app.api:app --reload
-```
+
 
 The demo mode generates placeholder results based on available inputs and clearly identifies the outputs as:
 
@@ -723,23 +721,19 @@ docker compose up --build
 
 FastAPI runs on:
 
-```text
 http://127.0.0.1:8000
-```
+
 
 Swagger documentation:
 
-```text
 http://localhost:8000/docs
-```
+
 
 Streamlit dashboard:
 
-```text
 http://localhost:8501
-```
 
----
+
 
 # 21. Complete Example
 

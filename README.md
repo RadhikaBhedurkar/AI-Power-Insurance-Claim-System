@@ -163,11 +163,8 @@ Its responsibilities include:
 
 The API can be tested using the interactive Swagger documentation:
 
-```text
 http://localhost:8000/docs
-```
 
----
 
 # 6. Computer Vision Pipeline
 
